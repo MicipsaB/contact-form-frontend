@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7359dc;
+  padding: 200px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container h1 {
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 30px;
+}
+
+input {
+  height: 30px;
+  width: 350px;
+}
+
+textarea {
+  height: 60px;
+  width: 350px;
+}
+
+form button {
+  height: 30px;
+  width: 350px;
+  background-color: #7359dc;
+  color: white;
+}
