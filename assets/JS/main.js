@@ -8,6 +8,7 @@ $.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
 
     //Je fais une requete AXIOS
+
     const response = await axios.post("http://localhost:3000/send-email", {
       firstname: $.querySelector("#firstname").value,
       lastname: $.querySelector("#lastname").value,
